@@ -38,3 +38,6 @@ yarn-error.log*
 
 # VScode
 .vscode
+
+# other
+Readme2.md
