@@ -3,7 +3,6 @@ import jwt from "jsonwebtoken";
 import { NextApiRequest, NextApiResponse } from "next";
 
 const { MUX_SIGNING_KEY, MUX_PRIVATE_KEY } = process.env;
-console.log("MUX_SIGNING_KEY", MUX_SIGNING_KEY);
 
 type ResponseData = {
   spaceJWT: string;
